@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34C684ED1F4D566E009FD470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C684EC1F4D566E009FD470 /* main.m */; };
+		34C684F01F4D566E009FD470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C684EF1F4D566E009FD470 /* AppDelegate.m */; };
+		34C684F31F4D566E009FD470 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C684F21F4D566E009FD470 /* ViewController.m */; };
+		34C684F61F4D566E009FD470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C684F41F4D566E009FD470 /* Main.storyboard */; };
+		34C684F81F4D566E009FD470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C684F71F4D566E009FD470 /* Assets.xcassets */; };
+		34C684FB1F4D566E009FD470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C684F91F4D566E009FD470 /* LaunchScreen.storyboard */; };
+		34C685061F4D566E009FD470 /* GCButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C685051F4D566E009FD470 /* GCButtonDemoTests.m */; };
+		34C685111F4D566E009FD470 /* GCButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C685101F4D566E009FD470 /* GCButtonDemoUITests.m */; };
+		34C685211F4D56AF009FD470 /* GCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C685201F4D56AF009FD470 /* GCButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34C685021F4D566E009FD470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C684E01F4D566E009FD470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C684E71F4D566E009FD470;
+			remoteInfo = GCButtonDemo;
+		};
+		34C6850D1F4D566E009FD470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C684E01F4D566E009FD470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C684E71F4D566E009FD470;
+			remoteInfo = GCButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34C684E81F4D566E009FD470 /* GCButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C684EC1F4D566E009FD470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34C684EE1F4D566E009FD470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34C684EF1F4D566E009FD470 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34C684F11F4D566E009FD470 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34C684F21F4D566E009FD470 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34C684F51F4D566E009FD470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34C684F71F4D566E009FD470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34C684FA1F4D566E009FD470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34C684FC1F4D566E009FD470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C685011F4D566E009FD470 /* GCButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C685051F4D566E009FD470 /* GCButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCButtonDemoTests.m; sourceTree = "<group>"; };
+		34C685071F4D566E009FD470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C6850C1F4D566E009FD470 /* GCButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C685101F4D566E009FD470 /* GCButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCButtonDemoUITests.m; sourceTree = "<group>"; };
+		34C685121F4D566E009FD470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C6851F1F4D56AF009FD470 /* GCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCButton.h; sourceTree = "<group>"; };
+		34C685201F4D56AF009FD470 /* GCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C684E51F4D566E009FD470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C684FE1F4D566E009FD470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C685091F4D566E009FD470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C684DF1F4D566E009FD470 = {
+			isa = PBXGroup;
+			children = (
+				34C684EA1F4D566E009FD470 /* GCButtonDemo */,
+				34C685041F4D566E009FD470 /* GCButtonDemoTests */,
+				34C6850F1F4D566E009FD470 /* GCButtonDemoUITests */,
+				34C684E91F4D566E009FD470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34C684E91F4D566E009FD470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C684E81F4D566E009FD470 /* GCButtonDemo.app */,
+				34C685011F4D566E009FD470 /* GCButtonDemoTests.xctest */,
+				34C6850C1F4D566E009FD470 /* GCButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34C684EA1F4D566E009FD470 /* GCButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34C6851E1F4D56AF009FD470 /* GCButton */,
+				34C684EE1F4D566E009FD470 /* AppDelegate.h */,
+				34C684EF1F4D566E009FD470 /* AppDelegate.m */,
+				34C684F11F4D566E009FD470 /* ViewController.h */,
+				34C684F21F4D566E009FD470 /* ViewController.m */,
+				34C684F41F4D566E009FD470 /* Main.storyboard */,
+				34C684F71F4D566E009FD470 /* Assets.xcassets */,
+				34C684F91F4D566E009FD470 /* LaunchScreen.storyboard */,
+				34C684FC1F4D566E009FD470 /* Info.plist */,
+				34C684EB1F4D566E009FD470 /* Supporting Files */,
+			);
+			path = GCButtonDemo;
+			sourceTree = "<group>";
+		};
+		34C684EB1F4D566E009FD470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C684EC1F4D566E009FD470 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34C685041F4D566E009FD470 /* GCButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34C685051F4D566E009FD470 /* GCButtonDemoTests.m */,
+				34C685071F4D566E009FD470 /* Info.plist */,
+			);
+			path = GCButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		34C6850F1F4D566E009FD470 /* GCButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34C685101F4D566E009FD470 /* GCButtonDemoUITests.m */,
+				34C685121F4D566E009FD470 /* Info.plist */,
+			);
+			path = GCButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		34C6851E1F4D56AF009FD470 /* GCButton */ = {
+			isa = PBXGroup;
+			children = (
+				34C6851F1F4D56AF009FD470 /* GCButton.h */,
+				34C685201F4D56AF009FD470 /* GCButton.m */,
+			);
+			path = GCButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C684E71F4D566E009FD470 /* GCButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C685151F4D566E009FD470 /* Build configuration list for PBXNativeTarget "GCButtonDemo" */;
+			buildPhases = (
+				34C684E41F4D566E009FD470 /* Sources */,
+				34C684E51F4D566E009FD470 /* Frameworks */,
+				34C684E61F4D566E009FD470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCButtonDemo;
+			productName = GCButtonDemo;
+			productReference = 34C684E81F4D566E009FD470 /* GCButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34C685001F4D566E009FD470 /* GCButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C685181F4D566E009FD470 /* Build configuration list for PBXNativeTarget "GCButtonDemoTests" */;
+			buildPhases = (
+				34C684FD1F4D566E009FD470 /* Sources */,
+				34C684FE1F4D566E009FD470 /* Frameworks */,
+				34C684FF1F4D566E009FD470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C685031F4D566E009FD470 /* PBXTargetDependency */,
+			);
+			name = GCButtonDemoTests;
+			productName = GCButtonDemoTests;
+			productReference = 34C685011F4D566E009FD470 /* GCButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34C6850B1F4D566E009FD470 /* GCButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C6851B1F4D566E009FD470 /* Build configuration list for PBXNativeTarget "GCButtonDemoUITests" */;
+			buildPhases = (
+				34C685081F4D566E009FD470 /* Sources */,
+				34C685091F4D566E009FD470 /* Frameworks */,
+				34C6850A1F4D566E009FD470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C6850E1F4D566E009FD470 /* PBXTargetDependency */,
+			);
+			name = GCButtonDemoUITests;
+			productName = GCButtonDemoUITests;
+			productReference = 34C6850C1F4D566E009FD470 /* GCButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34C684E01F4D566E009FD470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "高诚";
+				TargetAttributes = {
+					34C684E71F4D566E009FD470 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					34C685001F4D566E009FD470 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34C684E71F4D566E009FD470;
+					};
+					34C6850B1F4D566E009FD470 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34C684E71F4D566E009FD470;
+					};
+				};
+			};
+			buildConfigurationList = 34C684E31F4D566E009FD470 /* Build configuration list for PBXProject "GCButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34C684DF1F4D566E009FD470;
+			productRefGroup = 34C684E91F4D566E009FD470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C684E71F4D566E009FD470 /* GCButtonDemo */,
+				34C685001F4D566E009FD470 /* GCButtonDemoTests */,
+				34C6850B1F4D566E009FD470 /* GCButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C684E61F4D566E009FD470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C684FB1F4D566E009FD470 /* LaunchScreen.storyboard in Resources */,
+				34C684F81F4D566E009FD470 /* Assets.xcassets in Resources */,
+				34C684F61F4D566E009FD470 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C684FF1F4D566E009FD470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C6850A1F4D566E009FD470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C684E41F4D566E009FD470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C684F31F4D566E009FD470 /* ViewController.m in Sources */,
+				34C684F01F4D566E009FD470 /* AppDelegate.m in Sources */,
+				34C684ED1F4D566E009FD470 /* main.m in Sources */,
+				34C685211F4D56AF009FD470 /* GCButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C684FD1F4D566E009FD470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C685061F4D566E009FD470 /* GCButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C685081F4D566E009FD470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C685111F4D566E009FD470 /* GCButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34C685031F4D566E009FD470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C684E71F4D566E009FD470 /* GCButtonDemo */;
+			targetProxy = 34C685021F4D566E009FD470 /* PBXContainerItemProxy */;
+		};
+		34C6850E1F4D566E009FD470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C684E71F4D566E009FD470 /* GCButtonDemo */;
+			targetProxy = 34C6850D1F4D566E009FD470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34C684F41F4D566E009FD470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C684F51F4D566E009FD470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34C684F91F4D566E009FD470 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C684FA1F4D566E009FD470 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34C685131F4D566E009FD470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34C685141F4D566E009FD470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34C685161F4D566E009FD470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GCButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yy.com.GCButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34C685171F4D566E009FD470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GCButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yy.com.GCButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34C685191F4D566E009FD470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GCButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yy.com.GCButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCButtonDemo.app/GCButtonDemo";
+			};
+			name = Debug;
+		};
+		34C6851A1F4D566E009FD470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GCButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yy.com.GCButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCButtonDemo.app/GCButtonDemo";
+			};
+			name = Release;
+		};
+		34C6851C1F4D566E009FD470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GCButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yy.com.GCButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GCButtonDemo;
+			};
+			name = Debug;
+		};
+		34C6851D1F4D566E009FD470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GCButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yy.com.GCButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GCButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C684E31F4D566E009FD470 /* Build configuration list for PBXProject "GCButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C685131F4D566E009FD470 /* Debug */,
+				34C685141F4D566E009FD470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C685151F4D566E009FD470 /* Build configuration list for PBXNativeTarget "GCButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C685161F4D566E009FD470 /* Debug */,
+				34C685171F4D566E009FD470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34C685181F4D566E009FD470 /* Build configuration list for PBXNativeTarget "GCButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C685191F4D566E009FD470 /* Debug */,
+				34C6851A1F4D566E009FD470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34C6851B1F4D566E009FD470 /* Build configuration list for PBXNativeTarget "GCButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C6851C1F4D566E009FD470 /* Debug */,
+				34C6851D1F4D566E009FD470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34C684E01F4D566E009FD470 /* Project object */;
+}
